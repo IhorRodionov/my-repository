@@ -8,17 +8,21 @@
     <a href="../index.html"
       ><img src="../images/Emperor.jpg" alt="Home" width="100" height="130"
     /></a>
-    <table
-      name="Recruiting"
-      action="mailto:ihor.rodionov@nure.ua"
-      method="post"
-    >
+    <p><b>Imperial guard needs you! Join us</b></p>
+    <form name="Recruiting" action="mailto:ihor.rodionov@nure.ua" method="post">
       <p>
-        <b>Your Sirname/Name</b>
-        <input type="text" name="S/N" size="40" /><br />
+        <b>Your Sirname/Name</b><br />
+        <input type="text" name="S/N" size="40" value="Your S/A" /><br />
+        <b>Sex:</b><br />
+        <input type="radio" name="sex" value="male" /> Male<br />
+        <input type="radio" name="sex" value="female" />Female<br />
+        <b>Age:</b><br />
+        <input type="number" name="age" /><br />
+        <b>Your photo:</b><br />
+        <input type="file" name="photo" /><br /><br />
         <input type="submit" value="Send" />
         <input type="reset" value="Do you want to forget everything?!" />
       </p>
-    </table>
+    </form>
   </body>
 </html>
